@@ -38,6 +38,7 @@ p {
     color: rgba(255, 255, 255, 1);
     border-radius: 55px;
     cursor: pointer;
+    padding: 15px 35px;
 }
 
 .btn:hover, .btn:active {
@@ -421,7 +422,99 @@ p {
 
 /* Карточки */ 
 
+.products {
+    padding-top: 5.75em;
+    padding-bottom: 6.375em;
+    max-height: 740px;
+}
 
+.products__section-title {
+    margin-bottom: 1.3em;
+}
+
+.product-card {
+    text-align: center;
+}
+
+.product-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-card__img {
+    margin-bottom: 1.6em;
+    border-radius: 20px;
+}
+
+.product-card__img:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 75px -21px rgba(0,0,0,0.4);
+}
+
+.product-card__descr {
+    margin-bottom: 0.6em;
+}
+
+.product-card__descr p {
+    color: #182213;
+}
+
+.rating {
+	overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.products__rating {
+    margin-bottom: 4px;
+}
+
+.rating:not(:checked) > input {
+	display: none;
+}
+
+.rating:not(:checked) > label {
+	width: 15px;
+	padding: 0;
+	cursor: pointer;
+    font-size: 18px;
+    line-height: 15px;
+	color: lightgrey;
+}
+.rating:not(:checked) > label:before {
+	content: '★';
+}
+.rating > input:checked ~ label {
+	color: gold;
+}
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+	color: gold;
+}
+.rating > label:active {
+	position: relative;
+}
+
+.price {
+    color: #289C28;
+    font-family: Arial;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.product-card__price {
+    margin-bottom: 0.75em;
+}
 
 /* Футер */
 
