@@ -428,6 +428,10 @@ p {
     max-height: 740px;
 }
 
+.body__products {
+    margin-bottom: 8.125em;
+}
+
 .products__section-title {
     margin-bottom: 1.3em;
 }
@@ -524,6 +528,25 @@ p {
     font-weight: 400;
     line-height: 24px;
     color:rgba(153, 153, 153, 1);
+    background-color: #F7FAF7;
+    padding-top: 5em;
+    padding-bottom: 2.2em;
+}
+
+.main-footer {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6.4em;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.footer__main-footer {
+    margin-bottom: 2.3em;
+}
+
+.contacts__logo-container {
+    margin-bottom: 1.05em;
 }
 
 .phone-number {
@@ -531,6 +554,20 @@ p {
     font-size: 1.5rem;
     font-weight: 700;
     color: rgba(40, 156, 40, 1);
+}
+
+.contacts__phone-number {
+    margin-bottom: 0.93em;
+}
+
+.footer-links-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+}
+
+.footer-links__footer-title {
+    margin-bottom: 1.6em;
 }
 
 .adress {
@@ -547,9 +584,44 @@ p {
     color: rgba(24, 34, 19, 1);
 }
 
+.footer-links__item:hover {
+    color: #289C28;
+}
+
+.social__footer-title {
+    margin-bottom: 1.9em;
+}
+
+.social-list {
+    display: flex;
+    gap: 11px;
+}
+
+.social-list-link {
+    width: 47px;
+    height: 47px;
+    box-sizing: border-box;
+    background: #289C28;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-list-link:hover {
+    background-color: #63bf63;
+}
+
+.bottom-footer {
+    text-align: center;
+    padding: 0;
+}
+
 .company-name {
     color: rgba(24, 34, 19, 1);
 }
+
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
