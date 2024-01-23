@@ -512,7 +512,6 @@ input#days-slider::-webkit-slider-thumb {
     appearance: none;
     width: 19px;
     height: 19px;
-    cursor: pointer;
 }
 
 /* Карточки */ 
@@ -587,6 +586,7 @@ input#days-slider::-webkit-slider-thumb {
 .rating label {
     float: right;
     color: #ddd;
+    cursor: pointer;
 }
 
 .rating label::before {
@@ -726,7 +726,7 @@ input#days-slider::-webkit-slider-thumb {
     color: rgba(24, 34, 19, 1);
 }
 
-/* Поп-ап */
+/* Поп-ап: общие стили и add to card */
 
 .hidden {
     display: none;
@@ -780,6 +780,37 @@ input#days-slider::-webkit-slider-thumb {
 .popup__btn {
     width: 100%;
     text-align: center;
+}
+
+/* Поп-ап select */
+.popup__title {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.btn-select-wrap {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1em;
+    justify-content: center;
+}
+
+.popup-select-btn {
+    padding: 10px;
+    width: 100px;
+}
+
+.popup-select__price {
+    margin-bottom: 0.75em;
+}
+
+.btn_added_in_popup {
+    width: 100%;
+}
+
+.selected {
+    background-color: rgba(40, 156, 40, 1);
+    color: rgba(255, 255, 255, 1);
 }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
