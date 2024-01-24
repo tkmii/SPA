@@ -1,0 +1,16 @@
+[
+    {
+    "id": "brand",
+    "name" : "Brand Premium",
+    "option" : "Flavour",
+    "meanings" : ["Rose", "Lily", "Sakura"],
+    "cost": "$199,99"
+    },
+    {
+    "id": "grinkgo",
+    "name" : "Ginkgo Cosmetic",
+    "option" : "Size",
+    "meanings" : ["50ml", "100ml", "150ml"],
+    "cost": ["$74,52", "$935,60", "$903,20"]
+    }
+]
