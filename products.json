@@ -1,13 +1,13 @@
 [
     {
-    "prod-id": "brand",
+    "prodId": "brand",
     "name" : "Brand Premium",
     "option" : "Flavour",
     "meanings" : ["Rose", "Lily", "Sakura"],
     "cost": "$199,99"
     },
     {
-    "prod-id": "grinkgo",
+    "prodId": "grinkgo",
     "name" : "Ginkgo Cosmetic",
     "option" : "Size",
     "meanings" : ["50ml", "100ml", "150ml"],
