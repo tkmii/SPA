@@ -757,8 +757,8 @@ input#days-slider::-webkit-slider-thumb {
     padding-right: 20px;
 }
 
-.close svg {
-    fill: rgba(102, 102, 102, 1);
+.close__img {
+    width: 25px;
     cursor: pointer;
 }
 
